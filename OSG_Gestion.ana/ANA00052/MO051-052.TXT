@@ -1,0 +1,4 @@
+//MO051-052.TXT ANA00051 TO ANA00052
+Repetition_Session_Pupitre		FIC-	Repetition_Session_Pupitre	Fichier de données supprimé Repetition_Session_Pupitre
+Contrainte_Repetition_Session_Pupitre		DEL	Seance (ID) et Repetition_Session_Pupitre (IDSeance)	Liaison supprimée entre les fichiers de données Seance (ID) et Repetition_Session_Pupitre (IDSeance)
+Contrainte_Session_Pupitre_Repetition		DEL	Session_Pupitre (IDSession_IDPupitre) et Repetition_Session_Pupitre (IDSession_IDPupitre)	Liaison supprimée entre les fichiers de données Session_Pupitre (IDSession_IDPupitre) et Repetition_Session_Pupitre (IDSession_IDPupitre)

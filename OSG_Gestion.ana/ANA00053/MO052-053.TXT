@@ -1,0 +1,4 @@
+//MO052-053.TXT ANA00052 TO ANA00053
+Session_Pupitre_Seance		NFI		nouveau fichier de données
+Contrainte_Session_Pupitre_Seance		NWL	Session_Pupitre (ID) et Session_Pupitre_Seance (ID_Session_Pupitre)	Nouvelle liaison entre les fichiers de données Session_Pupitre (ID) et Session_Pupitre_Seance (ID_Session_Pupitre)
+Contrainte_Seance_Session_Pupitre		NWL	Seance (ID) et Session_Pupitre_Seance (ID_Seance)	Nouvelle liaison entre les fichiers de données Seance (ID) et Session_Pupitre_Seance (ID_Seance)

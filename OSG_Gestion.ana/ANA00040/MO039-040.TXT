@@ -1,0 +1,3 @@
+//MO039-040.TXT ANA00039 TO ANA00040
+Seance		TAR	193	nouvelle taille enregistrement : 193
+Seance	Generale	RUB-		la rubrique Generale est supprimée

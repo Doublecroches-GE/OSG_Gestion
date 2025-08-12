@@ -1,0 +1,4 @@
+//MO040-041.TXT ANA00040 TO ANA00041
+Seance		TAR	203	nouvelle taille enregistrement : 203
+Seance	Heure_Debut	RUB+		Heure_Debut est une nouvelle rubrique
+Seance	Heure_Fin	RUB+		Heure_Fin est une nouvelle rubrique

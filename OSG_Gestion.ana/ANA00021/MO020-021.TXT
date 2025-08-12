@@ -1,0 +1,4 @@
+//MO020-021.TXT ANA00020 TO ANA00021
+Personne_Instrument_Session_Groupe		TAR	227	nouvelle taille enregistrement : 227
+Personne_Instrument_Session_Groupe	IDPersonne_IDInstrument	RUB-		la rubrique IDPersonne_IDInstrument est supprimée
+Personne_Instrument_Session_Groupe	IDPersonne_IDInstrument_IDSession_IDGroupe	RUB-		la rubrique IDPersonne_IDInstrument_IDSession_IDGroupe est supprimée

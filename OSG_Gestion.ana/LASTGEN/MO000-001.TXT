@@ -1,0 +1,4 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+CategoriePlace		NFI		nouveau fichier
+Place		NFI		nouveau fichier
+Contrainte_CategoriePlace_Place		NWL	CategoriePlace (ID) et Place (ID_CategoriePlace)	Nouvelle liaison entre les fichiers CategoriePlace (ID) et Place (ID_CategoriePlace)

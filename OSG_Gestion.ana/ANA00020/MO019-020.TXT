@@ -1,0 +1,16 @@
+//MO019-020.TXT ANA00019 TO ANA00020
+Session_Groupe		TAR	33	nouvelle taille enregistrement : 33
+Session_Groupe		IDE+*		fichier avec identifiant
+Session_Groupe	ID	RUB+		ID est une nouvelle clé
+Personne_Instrument		TAR	33	nouvelle taille enregistrement : 33
+Personne_Instrument		IDE+*		fichier avec identifiant
+Personne_Instrument	ID	RUB+		ID est une nouvelle clé
+Personne_Instrument_Session_Groupe		TAR	245	nouvelle taille enregistrement : 245
+Personne_Instrument_Session_Groupe	ID_Personne_Instrument	RUB+		ID_Personne_Instrument est une nouvelle clé
+Personne_Instrument_Session_Groupe	ID_Session_Groupe	RUB+		ID_Session_Groupe est une nouvelle clé
+Personne_Instrument_Session_Groupe	ID_Session_Groupe_ID_Personne_Instrument	RUB+		ID_Session_Groupe_ID_Personne_Instrument est une nouvelle clé
+Personne_Instrument_Session_Groupe	IDSession_IDGroupe	RUB-		la rubrique IDSession_IDGroupe est supprimée
+Contrainte_Session_Groupe_Personne_Instrument1		NWL	Session_Groupe (ID) et Personne_Instrument_Session_Groupe (ID_Session_Groupe)	Nouvelle liaison entre les fichiers Session_Groupe (ID) et Personne_Instrument_Session_Groupe (ID_Session_Groupe)
+Contrainte_Personne_Instrument_Session_Groupe1		NWL	Personne_Instrument (ID) et Personne_Instrument_Session_Groupe (ID_Personne_Instrument)	Nouvelle liaison entre les fichiers Personne_Instrument (ID) et Personne_Instrument_Session_Groupe (ID_Personne_Instrument)
+Contrainte_Personne_Instrument_Session_Groupe		DEL	Personne_Instrument (IDPersonne_IDInstrument) et Personne_Instrument_Session_Groupe (IDPersonne_IDInstrument)	Liaison supprimée entre les fichiers Personne_Instrument (IDPersonne_IDInstrument) et Personne_Instrument_Session_Groupe (IDPersonne_IDInstrument)
+Contrainte_Session_Groupe_Personne_Instrument		DEL	Session_Groupe (IDSession_IDGroupe) et Personne_Instrument_Session_Groupe (IDSession_IDGroupe)	Liaison supprimée entre les fichiers Session_Groupe (IDSession_IDGroupe) et Personne_Instrument_Session_Groupe (IDSession_IDGroupe)

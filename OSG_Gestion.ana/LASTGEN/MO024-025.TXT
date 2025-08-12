@@ -1,0 +1,9 @@
+//MO024-025.TXT ANA00024 TO ANA00025
+Groupe		TAR	68	nouvelle taille enregistrement : 68
+Groupe	IDInstrument	RUB-		la rubrique IDInstrument est supprimée
+Voix		NFI		nouveau fichier
+Voix_Session_Groupe		NFI		nouveau fichier
+Contrainte_Voix_Categorie		NWL	Categorie (ID) et Voix (IDCategorie)	Nouvelle liaison entre les fichiers Categorie (ID) et Voix (IDCategorie)
+Contrainte_Voix_Session_Groupe		NWL	Voix (ID) et Voix_Session_Groupe (IDVoix)	Nouvelle liaison entre les fichiers Voix (ID) et Voix_Session_Groupe (IDVoix)
+Contrainte_Session_Groupe_Voix		NWL	Session_Groupe (ID) et Voix_Session_Groupe (IDSession_Groupe)	Nouvelle liaison entre les fichiers Session_Groupe (ID) et Voix_Session_Groupe (IDSession_Groupe)
+Contrainte_Groupe_Instrument		DEL	Instrument (ID) et Groupe (IDInstrument)	Liaison supprimée entre les fichiers Instrument (ID) et Groupe (IDInstrument)

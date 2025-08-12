@@ -1,0 +1,5 @@
+//MO023-024.TXT ANA00023 TO ANA00024
+Groupe	IDInstrument	RUB+		IDInstrument est une nouvelle clé
+Groupe	IDCategorie	RUB-		la rubrique IDCategorie est supprimée
+Contrainte_Groupe_Instrument		NWL	Instrument (ID) et Groupe (IDInstrument)	Nouvelle liaison entre les fichiers Instrument (ID) et Groupe (IDInstrument)
+Contrainte_Groupe_Categorie		DEL	Categorie (ID) et Groupe (IDCategorie)	Liaison supprimée entre les fichiers Categorie (ID) et Groupe (IDCategorie)

@@ -1,0 +1,25 @@
+//MO026-027.TXT ANA00026 TO ANA00027
+Pupitre		NNF*	Groupe	nouveau nom Pupitre
+Pupitre	Pupitre	NNR	Groupe	ATTENTION : la rubrique Groupe a pour nouveau nom Pupitre
+Pupitre	IDFamille	RUB+		IDFamille est une nouvelle clé
+Pupitre	IDGroupe	RUB-		la rubrique IDGroupe est supprimée
+Session_Pupitre		NNF*	Session_Groupe	nouveau nom Session_Pupitre
+Session_Pupitre	IDPupitre	NNR	IDGroupe	ATTENTION : la clé IDGroupe a pour nouveau nom IDPupitre
+Session_Pupitre	IDSession_IDPupitre	NNR	IDSession_IDGroupe	ATTENTION : la clé IDSession_IDGroupe a pour nouveau nom IDSession_IDPupitre
+Repetition_Session_Pupitre		NNF*	Repetition_Session_Groupe	nouveau nom Repetition_Session_Pupitre
+Repetition_Session_Pupitre	IDSession_IDPupitre	NNR	IDSession_IDGroupe	ATTENTION : la clé IDSession_IDGroupe a pour nouveau nom IDSession_IDPupitre
+Personne_Instrument_Session_Pupitre		NNF*	Personne_Instrument_Session_Groupe	nouveau nom Personne_Instrument_Session_Pupitre
+Personne_Instrument_Session_Pupitre	IDSession_Pupitre	NNR	IDSession_Groupe	ATTENTION : la clé IDSession_Groupe a pour nouveau nom IDSession_Pupitre
+Personne_Instrument_Session_Pupitre	IDSession_Groupe_IDPersonne_Instrument	NNR	IDSession_Groupe_ID_Personne_Instrument	ATTENTION : la clé IDSession_Groupe_ID_Personne_Instrument a pour nouveau nom IDSession_Groupe_IDPersonne_Instrument
+Voix	IDPupitre	NNR	IDCategorie	ATTENTION : la clé IDCategorie a pour nouveau nom IDPupitre
+Voix_Session_Groupe		FIC-	Voix_Session_Groupe	Fichier supprimé Voix_Session_Groupe
+Contrainte_Pupitre_Famille		NWL	Famille (ID) et Pupitre (IDFamille)	Nouvelle liaison entre les fichiers Famille (ID) et Pupitre (IDFamille)
+Contrainte_Pupitre_Voix		NWL	Pupitre (ID) et Voix (IDPupitre)	Nouvelle liaison entre les fichiers Pupitre (ID) et Voix (IDPupitre)
+Contrainte_Voix_Categorie		DEL	Famille (ID) et Voix (IDCategorie)	Liaison supprimée entre les fichiers Famille (ID) et Voix (IDCategorie)
+Contrainte_Voix_Session_Groupe		DEL	Voix (ID) et Voix_Session_Groupe (IDVoix)	Liaison supprimée entre les fichiers Voix (ID) et Voix_Session_Groupe (IDVoix)
+Contrainte_Session_Groupe_Voix		DEL	Session_Groupe (ID) et Voix_Session_Groupe (IDSession_Groupe)	Liaison supprimée entre les fichiers Session_Groupe (ID) et Voix_Session_Groupe (IDSession_Groupe)
+Contrainte_Groupe_Categorie		DEL	Famille (ID) et Groupe (IDGroupe)	Liaison supprimée entre les fichiers Famille (ID) et Groupe (IDGroupe)
+Pupitre		FRN		
+Session_Pupitre		FRN		
+Repetition_Session_Pupitre		FRN		
+Personne_Instrument_Session_Pupitre		FRN		

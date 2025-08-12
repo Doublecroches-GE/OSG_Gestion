@@ -1,0 +1,3 @@
+//MO044-045.TXT ANA00044 TO ANA00045
+Personne		TAR	803	nouvelle taille enregistrement : 803
+Personne	Adr_Complement	RUB+		Adr_Complement est une nouvelle rubrique

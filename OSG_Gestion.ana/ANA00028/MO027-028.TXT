@@ -1,0 +1,2 @@
+//MO027-028.TXT ANA00027 TO ANA00028
+Place	IDCategoriePlace	NNR	ID_CategoriePlace	ATTENTION : la clé ID_CategoriePlace a pour nouveau nom IDCategoriePlace

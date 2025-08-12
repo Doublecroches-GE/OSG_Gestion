@@ -1,0 +1,2 @@
+//MO005-006.TXT ANA00005 TO ANA00006
+Contrainte_Instrument_Categorie		MCL	1,1->0,1	

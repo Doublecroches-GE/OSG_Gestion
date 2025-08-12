@@ -1,0 +1,4 @@
+//MO046-047.TXT ANA00046 TO ANA00047
+Seance_Personne_Instrument_Session_Pupitre		NFI		nouveau fichier de données
+Contrainte_Seance_Personne_Instrument_Session_Pupitre		NWL	Seance (ID) et Seance_Personne_Instrument_Session_Pupitre (ID_Seance)	Nouvelle liaison entre les fichiers de données Seance (ID) et Seance_Personne_Instrument_Session_Pupitre (ID_Seance)
+Contrainte_Personne_Instrument_Session_Pupitre_Seance		NWL	Personne_Instrument_Session_Pupitre (ID) et Seance_Personne_Instrument_Session_Pupitre (ID_PISP)	Nouvelle liaison entre les fichiers de données Personne_Instrument_Session_Pupitre (ID) et Seance_Personne_Instrument_Session_Pupitre (ID_PISP)

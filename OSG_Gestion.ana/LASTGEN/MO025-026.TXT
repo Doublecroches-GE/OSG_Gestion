@@ -1,0 +1,8 @@
+//MO025-026.TXT ANA00025 TO ANA00026
+Groupe		TAR	76	nouvelle taille enregistrement : 76
+Groupe	IDGroupe	RUB+		IDGroupe est une nouvelle clé
+Instrument	IDFamille	NNR	IDCategorie	ATTENTION : la clé IDCategorie a pour nouveau nom IDFamille
+Famille		NNF*	Categorie	nouveau nom Famille
+Famille	Famille	NNR	Categorie	ATTENTION : la rubrique Categorie a pour nouveau nom Famille
+Contrainte_Groupe_Categorie		NWL	Famille (ID) et Groupe (IDGroupe)	Nouvelle liaison entre les fichiers Famille (ID) et Groupe (IDGroupe)
+Famille		FRN		

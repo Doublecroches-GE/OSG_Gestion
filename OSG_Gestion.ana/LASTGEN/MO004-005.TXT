@@ -1,0 +1,8 @@
+//MO004-005.TXT ANA00004 TO ANA00005
+Personne	Nom	CLEN*		la rubrique Nom est maintenant une clé
+Personne	EMail	CLEU*		la rubrique EMail est maintenant une clé
+Personne	HEM	CLEN*		la rubrique HEM est maintenant une clé
+Personne	Nom_Prenom	RUB+		Nom_Prenom est une nouvelle clé
+Session_Place		TAR	33	nouvelle taille enregistrement : 33
+Session_Place	IDPersonne	RUB+		IDPersonne est une nouvelle clé
+Contrainte_Personne_Session_Place		NWL	Personne (ID) et Session_Place (IDPersonne)	Nouvelle liaison entre les fichiers Personne (ID) et Session_Place (IDPersonne)

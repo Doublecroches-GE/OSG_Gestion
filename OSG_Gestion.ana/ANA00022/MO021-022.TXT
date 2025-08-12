@@ -1,0 +1,7 @@
+//MO021-022.TXT ANA00021 TO ANA00022
+Groupe		TAR	76	nouvelle taille enregistrement : 76
+Groupe	IDGroupe	RUB+		IDGroupe est une nouvelle clé
+Personne_Instrument_Session_Groupe	IDPersonne_Instrument	NNR	ID_Personne_Instrument	ATTENTION : la clé ID_Personne_Instrument a pour nouveau nom IDPersonne_Instrument
+Personne_Instrument_Session_Groupe	IDSession_Groupe	NNR	ID_Session_Groupe	ATTENTION : la clé ID_Session_Groupe a pour nouveau nom IDSession_Groupe
+Personne_Instrument_Session_Groupe	IDSession_Groupe_ID_Personne_Instrument	NNR	ID_Session_Groupe_ID_Personne_Instrument	ATTENTION : la clé ID_Session_Groupe_ID_Personne_Instrument a pour nouveau nom IDSession_Groupe_ID_Personne_Instrument
+Contrainte_Groupe_Categorie		NWL	Categorie (ID) et Groupe (IDGroupe)	Nouvelle liaison entre les fichiers Categorie (ID) et Groupe (IDGroupe)

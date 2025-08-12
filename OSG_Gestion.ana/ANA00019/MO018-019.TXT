@@ -1,0 +1,3 @@
+//MO018-019.TXT ANA00018 TO ANA00019
+Personne_Instrument_Session_Groupe		TAR	247	nouvelle taille enregistrement : 247
+Personne_Instrument_Session_Groupe	Commentaire	RUB+		Commentaire est une nouvelle rubrique

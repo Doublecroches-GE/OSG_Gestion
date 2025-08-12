@@ -1,0 +1,4 @@
+//MO030-031.TXT ANA00030 TO ANA00031
+Pupitre		TAR	88	nouvelle taille enregistrement : 88
+Pupitre	IDInstrument	RUB+		IDInstrument est une nouvelle clé
+Contrainte_Pupitre_Instrument		NWL	Instrument (ID) et Pupitre (IDInstrument)	Nouvelle liaison entre les fichiers Instrument (ID) et Pupitre (IDInstrument)

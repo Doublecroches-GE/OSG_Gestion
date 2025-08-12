@@ -1,0 +1,7 @@
+//MO043-044.TXT ANA00043 TO ANA00044
+Personne		TAR	752	nouvelle taille enregistrement : 752
+Personne	Donnees_Transmissibles	RUB+		Donnees_Transmissibles est une nouvelle rubrique
+Personne	Image_Reseaux	RUB+		Image_Reseaux est une nouvelle rubrique
+Personne	LPD_acceptee	RUB+		LPD_acceptee est une nouvelle rubrique
+Personne	Date_MAJ	RUB+		Date_MAJ est une nouvelle rubrique
+Personne	Date_Modification	RUB+		Date_Modification est une nouvelle rubrique

@@ -1,0 +1,7 @@
+//MO048-049.TXT ANA00048 TO ANA00049
+Absents		NFI		nouveau fichier de données
+Seance_Personne_Instrument_Session_Pupitre		FIC-	Seance_Personne_Instrument_Session_Pupitre	Fichier de données supprimé Seance_Personne_Instrument_Session_Pupitre
+Contrainte_Absents_Personne		NWL	Personne (ID) et Absents (ID_Personne)	Nouvelle liaison entre les fichiers de données Personne (ID) et Absents (ID_Personne)
+Contrainte_Absents_Seance		NWL	Seance (ID) et Absents (ID_Seance)	Nouvelle liaison entre les fichiers de données Seance (ID) et Absents (ID_Seance)
+Contrainte_Seance_Personne_Instrument_Session_Pupitre		DEL	Seance (ID) et Seance_Personne_Instrument_Session_Pupitre (ID_Seance)	Liaison supprimée entre les fichiers de données Seance (ID) et Seance_Personne_Instrument_Session_Pupitre (ID_Seance)
+Contrainte_Personne_Instrument_Session_Pupitre_Seance		DEL	Personne_Instrument_Session_Pupitre (ID) et Seance_Personne_Instrument_Session_Pupitre (ID_PISP)	Liaison supprimée entre les fichiers de données Personne_Instrument_Session_Pupitre (ID) et Seance_Personne_Instrument_Session_Pupitre (ID_PISP)

@@ -1,0 +1,21 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+Groupe		NFI		nouveau fichier
+Session		NFI		nouveau fichier
+Session_Groupe		NFI		nouveau fichier
+Repetition		NFI		nouveau fichier
+Repetition_Session_Groupe		NFI		nouveau fichier
+Personne		NFI		nouveau fichier
+Instrument		NFI		nouveau fichier
+Categorie		NFI		nouveau fichier
+Personne_Instrument		NFI		nouveau fichier
+Personne_Instrument_Session_Groupe		NFI		nouveau fichier
+Contrainte_Session_Groupe		NWL	Session (ID) et Session_Groupe (IDSession)	Nouvelle liaison entre les fichiers Session (ID) et Session_Groupe (IDSession)
+Contrainte_Groupe_Session		NWL	Groupe (ID) et Session_Groupe (IDGroupe)	Nouvelle liaison entre les fichiers Groupe (ID) et Session_Groupe (IDGroupe)
+Contrainte_Session_Repetition		NWL	Session (ID) et Repetition (IDSession)	Nouvelle liaison entre les fichiers Session (ID) et Repetition (IDSession)
+Contrainte_Repetition_Session_Groupe		NWL	Repetition (ID) et Repetition_Session_Groupe (IDRepetition)	Nouvelle liaison entre les fichiers Repetition (ID) et Repetition_Session_Groupe (IDRepetition)
+Contrainte_Session_Groupe_Repetition		NWL	Session_Groupe (IDSession_IDGroupe) et Repetition_Session_Groupe (IDSession_IDGroupe)	Nouvelle liaison entre les fichiers Session_Groupe (IDSession_IDGroupe) et Repetition_Session_Groupe (IDSession_IDGroupe)
+Contrainte_Instrument_Categorie		NWL	Categorie (ID) et Instrument (IDCategorie)	Nouvelle liaison entre les fichiers Categorie (ID) et Instrument (IDCategorie)
+Contrainte_Instrument_Personne		NWL	Instrument (ID) et Personne_Instrument (IDInstrument)	Nouvelle liaison entre les fichiers Instrument (ID) et Personne_Instrument (IDInstrument)
+Contrainte_Personne_Instrument		NWL	Personne (ID) et Personne_Instrument (IDPersonne)	Nouvelle liaison entre les fichiers Personne (ID) et Personne_Instrument (IDPersonne)
+Contrainte_Personne_Instrument_Session_Groupe		NWL	Personne_Instrument (IDPersonne_IDInstrument) et Personne_Instrument_Session_Groupe (IDPersonne_IDInstrument)	Nouvelle liaison entre les fichiers Personne_Instrument (IDPersonne_IDInstrument) et Personne_Instrument_Session_Groupe (IDPersonne_IDInstrument)
+Contrainte_Session_Groupe_Personne_Instrument		NWL	Session_Groupe (IDSession_IDGroupe) et Personne_Instrument_Session_Groupe (IDSession_IDGroupe)	Nouvelle liaison entre les fichiers Session_Groupe (IDSession_IDGroupe) et Personne_Instrument_Session_Groupe (IDSession_IDGroupe)

@@ -1,0 +1,3 @@
+//MO050-051.TXT ANA00050 TO ANA00051
+Contrainte_Session_Place		DEL	Session (ID) et Session_Place (IDSession)	Liaison supprimée entre les fichiers de données Session (ID) et Session_Place (IDSession)
+Contrainte_Personne_Session_Place		DEL	Personne (ID) et Session_Place (IDPersonne)	Liaison supprimée entre les fichiers de données Personne (ID) et Session_Place (IDPersonne)

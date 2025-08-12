@@ -1,0 +1,3 @@
+//MO037-038.TXT ANA00037 TO ANA00038
+Personne_Instrument_Session_Pupitre		TAR	238	nouvelle taille enregistrement : 238
+Personne_Instrument_Session_Pupitre	ChefAttaque	RUB+		ChefAttaque est une nouvelle rubrique

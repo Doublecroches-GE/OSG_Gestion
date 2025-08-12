@@ -1,0 +1,4 @@
+//MO034-035.TXT ANA00034 TO ANA00035
+SessionEnCours		TAR	85	nouvelle taille enregistrement : 85
+SessionEnCours	Utilisateur	NNR	ID_Administrateur	ATTENTION : la clé ID_Administrateur a pour nouveau nom Utilisateur
+SessionEnCours	Utilisateur	CNW	Chaîne$Entier sur 4 octets	la rubrique Utilisateur a pour nouveau type Chaîne

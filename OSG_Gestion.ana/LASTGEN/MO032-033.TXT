@@ -1,0 +1,5 @@
+//MO032-033.TXT ANA00032 TO ANA00033
+Personne_Instrument_Session_Pupitre		TAR	236	nouvelle taille enregistrement : 236
+Personne_Instrument_Session_Pupitre	Voix	RUB+		Voix est une nouvelle rubrique
+Voix		FIC-	Voix	Fichier supprimé Voix
+Contrainte_Pupitre_Voix		DEL	Pupitre (ID) et Voix (IDPupitre)	Liaison supprimée entre les fichiers Pupitre (ID) et Voix (IDPupitre)

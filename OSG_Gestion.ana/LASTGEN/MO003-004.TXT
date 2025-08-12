@@ -1,0 +1,4 @@
+//MO003-004.TXT ANA00003 TO ANA00004
+Session_Place		NFI		nouveau fichier
+Contrainte_Session_Place		NWL	Session (ID) et Session_Place (IDSession)	Nouvelle liaison entre les fichiers Session (ID) et Session_Place (IDSession)
+Contrainte_Place_Session		NWL	Place (ID) et Session_Place (IDPlace)	Nouvelle liaison entre les fichiers Place (ID) et Session_Place (IDPlace)

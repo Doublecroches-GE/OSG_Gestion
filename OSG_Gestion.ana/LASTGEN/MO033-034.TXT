@@ -1,0 +1,3 @@
+//MO033-034.TXT ANA00033 TO ANA00034
+SessionEnCours		NFI		nouveau fichier de données
+Contrainte_SessionEnCours_Session		NWL	Session (ID) et SessionEnCours (ID_Session)	Nouvelle liaison entre les fichiers de données Session (ID) et SessionEnCours (ID_Session)

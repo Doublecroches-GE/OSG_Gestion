@@ -1,0 +1,2 @@
+//MO042-043.TXT ANA00042 TO ANA00043
+Seance	ID_Session	NNR	IDSession	ATTENTION : la clé IDSession a pour nouveau nom ID_Session

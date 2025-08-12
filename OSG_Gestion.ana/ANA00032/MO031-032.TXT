@@ -1,0 +1,4 @@
+//MO031-032.TXT ANA00031 TO ANA00032
+Personne_Instrument_Session_Pupitre		TAR	235	nouvelle taille enregistrement : 235
+Personne_Instrument_Session_Pupitre		IDE+*		fichier avec identifiant
+Personne_Instrument_Session_Pupitre	ID	RUB+		ID est une nouvelle clé

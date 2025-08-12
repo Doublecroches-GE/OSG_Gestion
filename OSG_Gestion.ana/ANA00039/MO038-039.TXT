@@ -1,0 +1,11 @@
+//MO038-039.TXT ANA00038 TO ANA00039
+Seance		NNF*	Repetition	nouveau nom Seance
+Seance		TAR	194	nouvelle taille enregistrement : 194
+Seance	Lieu	RUB+		Lieu est une nouvelle rubrique
+Seance	ID_Type	RUB+		ID_Type est une nouvelle clé
+Seance	Concert	RUB-		la rubrique Concert est supprimée
+Seance	Partielle	RUB-		la rubrique Partielle est supprimée
+Repetition_Session_Pupitre	IDSeance	NNR	IDRepetition	ATTENTION : la clé IDRepetition a pour nouveau nom IDSeance
+Repetition_Session_Pupitre	IDSeance_IDSession_IDPupitre	NNR	IDRepetition_IDSession_IDPupitre	ATTENTION : la clé IDRepetition_IDSession_IDPupitre a pour nouveau nom IDSeance_IDSession_IDPupitre
+Type_Seance		NFI		nouveau fichier de données
+Contrainte_Type_Seance_Repetition		NWL	Type_Seance (ID) et Seance (ID_Type)	Nouvelle liaison entre les fichiers de données Type_Seance (ID) et Seance (ID_Type)
