@@ -46,6 +46,18 @@ class :
       m_ID_Type 		= 1
      type : 589824
    -
+     name : Constructeur
+     procedure_id : 1754612857641956321
+     type_code : 27
+     code : |1-
+      procédure Constructeur(vn_id)
+      m_sFichierBD	= "SEANCE"
+      
+      si vn_id > 0 alors
+      	:m_ID = vn_id
+      FIN
+     type : 589825
+   -
      name : Destructeur
      procedure_id : 1754612857642021857
      type_code : 28

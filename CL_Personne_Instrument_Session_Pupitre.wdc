@@ -40,7 +40,10 @@ class :
       	m_Donnees_Transmissibles	est une chaîne							<mapping=Donnees_Transmissibles>
       	m_HEM						est un booléen							<MAPPING=HEM>
       	m_PRO						est un booléen							<MAPPING=PRO>
+      	m_Instrument				est une chaîne							<MAPPING=Instrument>
       	<FIN>
+      
+      	m_s_RECHERCHE				est une chaine
       
       	m_clPersInst			est une CL_Personne_Instrument
       	m_clSessionPupitre		est une CL_Session_Pupitre
@@ -226,6 +229,18 @@ class :
          procédure publique Prenom_Nom() : chaîne ANSI
          
          renvoyer m_Prenom + " " + m_Nom
+        type : 1966080
+     template_refs : []
+   -
+     name : RECHERCHE
+     identifier : 0x189df3bb026ee5b5
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procédure publique RECHERCHE() : chaine ANSI
+         
+         RENVOYER Majuscule(:m_Prenom) + ";" + Majuscule(:m_Nom) + ";" + Majuscule(:m_clPersInst.m_clInstrument.m_sInstrument)
         type : 1966080
      template_refs : []
   procedure_templates : []

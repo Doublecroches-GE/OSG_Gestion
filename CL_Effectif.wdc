@@ -81,6 +81,7 @@ class :
       procédure Charger_ListeMusiciens()
       
       vn_nbOcc est un entier
+      m_tab_PISP.SupprimeTout()
       
       REQ_Personnes_Session.p_IDSession = gcl_SessionEnCours.m_ID
       SI HExécuteRequête(REQ_Personnes_Session) ALORS
