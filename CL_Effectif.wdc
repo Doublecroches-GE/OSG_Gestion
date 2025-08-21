@@ -560,6 +560,32 @@ class :
       
       RENVOYER vtab_pers
      type : 458752
+   -
+     name : Charger_ListeMusiciens_LIGHT
+     procedure_id : 1776376775471360077
+     type_code : 12
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //Charger_ListeMusiciens_LIGHT ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // <Indiquez ici un exemple d'utilisation>
+      //
+      procédure Charger_ListeMusiciens_LIGHT()
+      
+      m_tab_PISP.SupprimeTout()
+      
+      REQ_Personnes_Session.p_IDSession = gcl_SessionEnCours.m_ID
+      SI HExécuteRequête(REQ_Personnes_Session) ALORS
+      	FichierVersTableau(m_tab_PISP, REQ_Personnes_Session)
+      FIN
+     type : 458752
   properties :
    -
      name : tab_Pupitres

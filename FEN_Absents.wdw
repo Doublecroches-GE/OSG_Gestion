@@ -113,7 +113,7 @@ window :
    -
      code : |1-
       
-      gcl_SessionEnCours.m_clEffectif.Charger_ListeMusiciens()
+      gcl_SessionEnCours.m_clEffectif.Charger_ListeMusiciens_LIGHT()
       gtab_musiciens = gcl_SessionEnCours.m_clEffectif.m_tab_PISP
       ListeAffiche(COMBO_Musiciens)
       
