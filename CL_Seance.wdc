@@ -30,6 +30,8 @@ class :
       	m_Commentaire	est une chaîne				<mapping=Commentaire>
       	<FIN>
       
+      	mtab_absents est un tableau de CL_Absents
+      
       FIN
      type : 131072
   procedures :
@@ -64,6 +66,41 @@ class :
      code : |1-
       PROCEDURE Destructeur()
      type : 655360
+   -
+     name : Charger_Absents
+     procedure_id : 1827569706150877113
+     type_code : 12
+     code : |1+
+      //!
+      //! @brief <indiquez ici ce que fait la procédure>
+      //!
+      //!
+      procédure Charger_Absents()
+      
+      :mtab_absents = Liste_Absents_Seance(m_ID)
+     type : 458752
+   -
+     name : Ajouter_Absent
+     procedure_id : 1827576307547556456
+     type_code : 12
+     code : |1-
+      //!
+      //! @brief <indiquez ici ce que fait la procédure>
+      //!
+      //! @param vcl_pisp (CL_Personne_Instrument_Session_Pupitre)  <indiquez ici le rôle de vcl_pisp>
+      //!
+      //!
+      
+      procédure Ajouter_Absent(vcl_pisp est une CL_Personne_Instrument_Session_Pupitre)
+      
+      vcl_absent est une CL_Absents
+      
+      vcl_absent.m_ID_Personne = vcl_pisp.m_ID
+      vcl_absent.m_ID_Seance = :m_ID
+      vcl_absent.m_RemplacePar = "" //#TODO à gérer
+      vcl_absent.m_Commentaire = "" //#TODO à gérer
+      vcl_absent.Sauver()
+     type : 458752
   properties :
    -
      name : Heures_Formattees

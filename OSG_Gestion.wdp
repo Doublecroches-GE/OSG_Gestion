@@ -70,19 +70,19 @@ project :
    -
      name : FEN_Principale_accueil
      identifier : 0x42bd79b003ec2dcf
-     internal_properties : HgAAAB4AAADva8fb6JWdThdOJhG5ncXhxWQsRH/mdJpLzTAJAOKoeIi4GQTpEh6nNODaJu7inhL6eg==
+     internal_properties : HgAAAB4AAACb90NHZCGJkquCaiX9oRnN2UjgiFoJsOu6voZRGx70xHSsBSi1TlJb+CSeGppWIpZ+hg==
      physical_name : .\FEN_Principale_accueil.wdw
      type : 2
    -
      name : FEN_CategorieInstrument
      identifier : 0x42bd7b2b05d0f53e
-     internal_properties : HgAAAB4AAAC4luA8C7D4IzoRR7NG5KQ/Gi9p2epxqrR3iltg4z9Vi6G9oUSbook2h7MtiwvFvTOdpQ==
+     internal_properties : HgAAAB4AAAAYdsDc65CYQxox51OmRMTfus+JuZEoH9SmbzP0ep/1K8FdwaQ7wqnWZ9PNK+vlnRP9BQ==
      physical_name : .\FEN_CategorieInstrument.wdw
      type : 2
    -
      name : FEN_Instruments
      identifier : 0x42bd7c5306b17a0a
-     internal_properties : HgAAAB4AAABfO7drWAUtPoe+ecCScGJY97o2bm2Utzl3gu+NoGIoiEyweIIo3iVX5FBKtn5yDoJKyg==
+     internal_properties : HgAAAB4AAABDP7vv3ImhuhM65UwerJ4cM3ZiOoB/PgVaRhrN4zbcPIBsvM7cYqHTYNzGMvLuin5Gzg==
      physical_name : .\FEN_Instruments.wdw
      type : 2
    -
@@ -100,25 +100,25 @@ project :
    -
      name : FEN_Personnes
      identifier : 0x42c41b7e11054bd5
-     internal_properties : HgAAAB4AAACHg+8z8K0FJg99fhlHlj0hx4auBqGnNuG29b0etnyWSvoKiULAEV32TMgyjhbKtiqSkg==
+     internal_properties : HgAAAB4AAABs6kRQbxQcz5bE0fjmtRICpOXzu68ehUam61OMfpvxJ9lpaGOhcL5Z419Zp29hGY95+Q==
      physical_name : .\FEN_Personnes.wdw
      type : 2
    -
      name : FEN_Travail
      identifier : 0x42bd84f9010444dc
-     internal_properties : HgAAAB4AAAA+JBYKuebO4eTfArtKeGETYF3fV1jnx21SqnrKlW0nmW9DlT/AOVB4xXFrVd0T7+ErKw==
+     internal_properties : HgAAAB4AAAAEAmxIdyyEp46lBLlITl+FzkMtnTWMIt2OvadwfptxZ12xC0nKN1J620exD5dJMacREQ==
      physical_name : .\FEN_Travail.wdw
      type : 2
    -
      name : FEN_Detail_Personne
      identifier : 0x42cffa4b0bebbcf6
-     internal_properties : HgAAAB4AAABYNgAcq9BYA9oD8isSdfe/yvmRGaylmAd8IXe7goCURPQOJCiyGcIQp5MN66sl3dM9xQ==
+     internal_properties : HgAAAB4AAAB51aHlwr/3+F2KKU712AjUdxRCamYNb9iO3YUSXsvDdYeZv41ftGe3HhqEfAT8hHRc5A==
      physical_name : .\FEN_Detail_Personne.wdw
      type : 2
    -
      name : FEN_Instruments_joués
      identifier : 0x42cff5a90ae8a6b6
-     internal_properties : HgAAAB4AAACGjO4y8a4GKQx5N+uNZkXn5udN5cJTvZtw6LU4tX0XiXtLa7ss3kvqTckzjRXLtymTkw==
+     internal_properties : HgAAAB4AAAD/W9fL+KUNHicgji5QCS48y7oSmkxzF8mCsJBXARjy5tYuRlCZqRAxhLAqlh7SriLqag==
      physical_name : .\FEN_Instruments_joués.wdw
      type : 2
    -
@@ -148,7 +148,7 @@ project :
    -
      name : FEN_Session_Personnes
      identifier : 0x4303369a28e6f233
-     internal_properties : HgAAAB4AAACGjO4y8a4GKTFneKTPeKtKdncNVWMfXBav0auDAgGTXZdPhP7rfV3RUskzjRXLtymTkw==
+     internal_properties : HgAAAB4AAAAcenSgH0Ts/0u9omIFhvEMtDWzqx+G2rKmj/cguk/NG9UNyjits5eLGA+Jdz+xSb8JCQ==
      physical_name : .\FEN_Session_Personnes.wdw
      type : 2
    -
@@ -160,7 +160,7 @@ project :
    -
      name : FEN_Effectif
      identifier : 0x42fe19a41c16c31a
-     internal_properties : HgAAAB4AAABs6kRQbxQcz5b+e6Lt8jBJIFMPF4bGhUajBIOWmpiErEjmNI+aQvJ7419Zp29hGY95+Q==
+     internal_properties : HgAAAB4AAAAlIQ0RrstjfMEtarGcgYGK6ZrE1OwjI7Gmr9XKsldH8Q8t80DrMeNqko4I8LAg2MgwMA==
      physical_name : .\FEN_Effectif.wdw
      type : 2
    -
@@ -172,7 +172,7 @@ project :
    -
      name : FEN_Session_Admin
      identifier : 0x42fcc4ed15c0d218
-     internal_properties : HgAAAB4AAADoZtDM+6AIEypAvv94/qO/PG87kyJ40fSi0zSQnnSgWORqrqQf/r8ld6MdmxvVrSPtdQ==
+     internal_properties : HgAAAB4AAAD6UCJmRQIqNQhiROFSUM3d9pnFhSOC4n5aJrwju26uapakUAK9GNU7WcU/uXl3A/XfZw==
      physical_name : .\FEN_Session_Admin.wdw
      type : 2
    -
@@ -184,7 +184,7 @@ project :
    -
      name : FEN_Selection_Musiciens
      identifier : 0x43074e1d0120d7c6
-     internal_properties : HgAAAB4AAAC2nJ6CIR4WGSFbmM9Ikqz16JnnrwWljZyy0jElYLNhv0npOR4N/MFlgrkjnWWbZ1mjow==
+     internal_properties : HgAAAB4AAACutIaaKVbekVnDsGcwKhRNcAE/V3uy5YuuFWO8jmsph7FRkbZlpGmN+iGbZS2jX1G7uw==
      physical_name : .\FEN_Selection_Musiciens.wdw
      type : 2
    -
@@ -220,7 +220,7 @@ project :
    -
      name : FEN_Selection_Pupitres
      identifier : 0x4320da6609af2262
-     internal_properties : HgAAAB4AAADxTSl9yve/8P5dHyO5QgIoTwIuhj4PH62gbocLsXKYSPwQEII+ywuHm4J8RMwE/OzUXA==
+     internal_properties : HgAAAB4AAACrp5P3NHE5YmyPRXVzFNz+odyYqCa9EDi6HgDfbYyGuk7iYjCMhcE9TfTuykqGcmautg==
      physical_name : .\FEN_Selection_Pupitres.wdw
      type : 2
    -
@@ -268,13 +268,13 @@ project :
    -
      name : FEN_Demarrage
      identifier : 0x4825c25c01e2e4c6
-     internal_properties : HgAAAB4AAACvq4ebKFXdjl3mk41JXUT425hmflkSvNROD4V4vXsbJZ8Rl90G+wGp+iCaZi6iXlK6ug==
+     internal_properties : HgAAAB4AAADGTC5yse7G6cpPjJp2MluLxqUdxX9uDS+KOgLd4VjETKQepMAh4OySk4lzTdUL9+nTUw==
      physical_name : .\FEN_Demarrage.wdw
      type : 2
    -
      name : FEN_ChoixSession
      identifier : 0x4825cf3f03473c0a
-     internal_properties : HgAAAB4AAACB/fktmsdvAMMoZp6vPuAot+rGrrvEtom/8GC3nprwAPTowPw0j3BfrJIM9Lw0zDyEjA==
+     internal_properties : HgAAAB4AAACV8f0hnvuz7P80wvp72rx8YzaCauD/ysKi+Ko12160RLg0lKiYY0y7yH54QMAwyDiAgA==
      physical_name : .\FEN_ChoixSession.wdw
      type : 2
    -
@@ -298,7 +298,7 @@ project :
    -
      name : FEN_Calendrier
      identifier : 0x48514448022cfd8e
-     internal_properties : HgAAAB4AAACqoJL2NXI6ZWbnAgKnTIIByF/HjziNkQ2j1wd91kLSzjb4VpeQsuZqT/XvyUmHc2Wvtw==
+     internal_properties : HgAAAB4AAACyiOo+DXoybU4/amp/dNppoDdPB6HAnymibBSDX8pKRo5QPr94ir5CFw33wUG/uy2Xnw==
      physical_name : .\FEN_Calendrier.wdw
      type : 2
    -
@@ -310,25 +310,25 @@ project :
    -
      name : FEN_Selection_Heures
      identifier : 0x485a3aee02200820
-     internal_properties : HgAAAB4AAACznSllthPbmSRiqNQI/FGGrFLCc5p38hmb27IyBdjh3jFLLah8hMJRoe45RmmBPqW2
+     internal_properties : HgAAAB4AAABxzan9Snc/cHMdCx9oAcpwLV4oeECnZiquxblu7jtbtUPpdRMKMI5EHAL8xEyEfGxU3A==
      physical_name : .\FEN_Selection_Heures.wdw
      type : 2
    -
      name : FEN_Popup_Saisie_Heure
      identifier : 0x485a3b270233e726
-     internal_properties : HgAAAB4AAACEguzI96wEJzTSAVHHGzrP7oG9PfKY5bO6bwyucp7+ymakRiEB+b5ZYccxjxfJsSeRkQ==
+     internal_properties : HgAAAB4AAAD9WdXJ9qMLFCeB8CB2aktYHxgqygKBRwGuSRPUZKXxP/0z1ZKSaC/IkLYgmBjIsCDoaA==
      physical_name : .\FEN_Popup_Saisie_Heure.wdw
      type : 2
    -
      name : FEN_Lieu
      identifier : 0x485a5def01fcc36c
-     internal_properties : HgAAAB4AAACmP1GAybM+gka08YM1NmxB3a4SKFryjwfQvI5EoKBOIlFz+SlPRNteTV2aX7srUQ==
+     internal_properties : HgAAAB4AAAD4ViB8y/C44+BOzxVuNCjTjC9bg0l4DjaCMArd7SzoMMwCCrk2y3T1zXNtS8sF/fPdZQ==
      physical_name : .\FEN_Lieu.wdw
      type : 2
    -
      name : FEN_Selection_Type
      identifier : 0x485a65f402ab1752
-     internal_properties : HgAAAB4AAABr5UHNDrt5uKzYy7ruEtu8scwo+SJKeK19yZK7QB/K0QOld87S9qsO4BDR7tEpln3u
+     internal_properties : HgAAAB4AAABl4U1RbgsjPI9Z4lUKPjVaBUAMbOqBUw2i3Kxz6VC6vkLORtHvy0kA2E5IsHBgGIhw8A==
      physical_name : .\FEN_Selection_Type.wdw
      type : 2
    -
@@ -346,7 +346,7 @@ project :
    -
      name : ETAT_Effectif
      identifier : 0x486397e803bf0d2c
-     internal_properties : HgAAAB4AAACwjug086gAGzi/S8gME8IvCGnHX2oZIXavZWN8yV81m31ly0J4Sx2+hbslkxPNtSuVnQ==
+     internal_properties : HgAAAB4AAAAmLA4Skc5mCSqt5eZq6ehhzr81bVGwGoauwcXanG0niUurgRyScUdoc6kT7bUr18kzMw==
      physical_name : .\ETAT_Effectif.wde
      type : 3
    -
@@ -364,7 +364,7 @@ project :
    -
      name : ETAT_ParPupitre
      identifier : 0x4863d31f06b55d4c
-     internal_properties : HgAAAB4AAAApK4eDXGk8CGIkAfd8VJ3/CxNOGjrxOV28/tjcQQk2EPRJoy56OcrJTdcXoINn0Dss
+     internal_properties : HgAAAB4AAACTb8vf7FnRiqkgpNQErmUmL7IeRnwbRb+6Pm5xb9qwcFSYsrsL+xTr9iyWYiLemg72fg==
      physical_name : .\ETAT_ParPupitre.wde
      type : 3
    -
@@ -391,6 +391,18 @@ project :
      internal_properties : HgAAAB4AAABk4kxoVwwkx5S16s6UGlHg9ved1eDxVDqOHyaIO/2XaZtLmuZBgAI8wWdRr3dpEYdx8Q==
      physical_name : .\FEN_Absents.wdw
      type : 2
+   -
+     name : CL_Absents
+     identifier : 0x495cd4b501c6581b
+     internal_properties : HgAAAB4AAACQbsjU04iguwWqKoe2Zp06ssFpQYvSxwarkccN0XgczHyWYWdiX0ZKatvFM/PtlQv1fQ==
+     physical_name : .\CL_Absents.wdc
+     type : 4
+   -
+     name : REQ_Absents_Seance
+     identifier : 0x495cd6e101d7d255
+     internal_properties : HgAAAB4AAAAYdsDc65CYQw2iNKMa28fwag8pibGocTiKWGK8kuct03ml8NIAOVhictPNK+vlnRP9BQ==
+     physical_name : .\REQ_Absents_Seance.WDR
+     type : 5
   other_elements :
    -
      physical_name : .\FauteuilVH_transparent.png

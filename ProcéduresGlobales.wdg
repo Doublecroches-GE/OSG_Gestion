@@ -542,6 +542,41 @@ procedure_set :
       	gtab_instruments.Ajoute(vcl_instr)
       FIN
      type : 458752
+   -
+     name : Liste_Absents_Seance
+     procedure_id : 1827570788482888033
+     type_code : 15
+     code : |1+
+      //!
+      //! @brief <indiquez ici ce que fait la procédure>
+      //!
+      //! @param vn_IdSeance (entier sur 8 octets)  vn_IdPers (entier sur 8 octets)  <indiquez ici le rôle de vn_IdPers>
+      //!
+      //! @return (tableau (CL_Absents))  <indiquez ici les valeurs possibles ainsi que leur interprétation>
+      //!
+      //!
+      
+      procédure Liste_Absents_Seance(vn_IdSeance est un entier sur 8 octets):tableau de CL_Absents
+      
+      vtab_absents est un tableau de CL_Absents
+      vcl_absent	est une CL_Absents
+      
+      REQ_Absents_Seance.p_IDSeance = vn_IdSeance
+      HExécuteRequête(REQ_Absents_Seance)
+      pour tout REQ_Absents_Seance
+      	VariableRAZ(vcl_absent)
+      	vcl_absent.m_ID				= REQ_Absents_Seance.ID
+      	vcl_absent.m_ID_Personne	= REQ_Absents_Seance.ID_Personne
+      	vcl_absent.m_ID_Seance		= REQ_Absents_Seance.ID_Seance
+      	vcl_absent.m_RemplacePar	= REQ_Absents_Seance.RemplacePar
+      	vcl_absent.m_Commentaire	= REQ_Absents_Seance.Commentaire
+      
+      	vtab_absents.AjouteLigne(vcl_absent)
+      fin
+      
+      renvoyer vtab_absents
+      
+     type : 458752
   procedure_templates : []
   property_templates : []
  code_parameters :
