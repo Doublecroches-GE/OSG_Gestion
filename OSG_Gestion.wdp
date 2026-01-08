@@ -391,6 +391,18 @@ project :
      internal_properties : HgAAAB4AAABk4kxoVwwkx5S16s6UGlHg9ved1eDxVDqOHyaIO/2XaZtLmuZBgAI8wWdRr3dpEYdx8Q==
      physical_name : .\FEN_Absents.wdw
      type : 2
+   -
+     name : CL_Absents
+     identifier : 0x495cd4b501c6581b
+     internal_properties : HgAAAB4AAACQbsjU04iguwWqKoe2Zp06ssFpQYvSxwarkccN0XgczHyWYWdiX0ZKatvFM/PtlQv1fQ==
+     physical_name : .\CL_Absents.wdc
+     type : 4
+   -
+     name : REQ_Absents_Seance
+     identifier : 0x495cd6e101d7d255
+     internal_properties : HgAAAB4AAAAYdsDc65CYQw2iNKMa28fwag8pibGocTiKWGK8kuct03ml8NIAOVhictPNK+vlnRP9BQ==
+     physical_name : .\REQ_Absents_Seance.WDR
+     type : 5
   other_elements :
    -
      physical_name : .\FauteuilVH_transparent.png
