@@ -134,6 +134,48 @@ procedure_set :
       iDestination(iVisualisateur)
       iImprimeEtat(ETAT_Effectif, gcl_Impression, "Liste des musiciens")
      type : 458752
+   -
+     name : Imprimer_EffectifSimple
+     procedure_id : 1828720095945490428
+     type_code : 15
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //Imprimer_EffectifSimple ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // <Indiquez ici un exemple d'utilisation>
+      //
+      procédure Imprimer_EffectifSimple()
+      
+      gcl_Impression.Charger_EffectifEntier()
+      
+      iDestination(iVisualisateur)
+      iImprimeEtat(ETAT_Effectif_Simple, gcl_Impression, vrai)
+     type : 458752
+   -
+     name : Imprimer_Participants
+     procedure_id : 1828722367984308586
+     type_code : 15
+     code : |1-
+      //!
+      //! @brief <indiquez ici ce que fait la procédure>
+      //!
+      //!
+      procédure Imprimer_Participants()
+      
+      gcl_Impression.Charger_EffectifEntier()
+      gcl_Impression.m_tab_Personnes.Trie(ttMembre,"m_sNom"		)
+      
+      
+      iDestination(iVisualisateur)
+      iImprimeEtat(ETAT_ParticipantsSession, gcl_Impression, Vrai)
+     type : 458752
   procedure_templates : []
   property_templates : []
  code_parameters :

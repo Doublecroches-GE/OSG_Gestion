@@ -403,6 +403,18 @@ project :
      internal_properties : HgAAAB4AAAAYdsDc65CYQw2iNKMa28fwag8pibGocTiKWGK8kuct03ml8NIAOVhictPNK+vlnRP9BQ==
      physical_name : .\REQ_Absents_Seance.WDR
      type : 5
+   -
+     name : ETAT_Effectif_Simple
+     identifier : 0x4960ea7b00d20896
+     internal_properties : HgAAAB4AAACuN1l40YNWOhx2AVNFTzL+BQWy9SGObzxN28hZv7wia3YPxc0jiisOPXWiV7MjWQ==
+     physical_name : .\ETAT_Effectif_Simple.wde
+     type : 3
+   -
+     name : ETAT_ParticipantsSession
+     identifier : 0x4960ed2000e05d4d
+     internal_properties : HgAAAB4AAACMVX/eL600hCjHxamJ1QZ6obHe2lYqrxssWP76Sg17MA2gbuQybgVoW1OAsdUBew==
+     physical_name : .\ETAT_ParticipantsSession.wde
+     type : 3
   other_elements :
    -
      physical_name : .\FauteuilVH_transparent.png

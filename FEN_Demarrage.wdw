@@ -255,6 +255,20 @@ window :
         style : {}
         options :
          -
+           name : OPT_Liste_des_participants_A_Z
+           identifier : 0x2960ed360496b31e
+           internal_properties : HgAAAB4AAACsEkyZMXP3clCO3EWU5mMi2Dl2P7o2uG32shRhojoBEqXUZKGLa6xiW4C9flnd6c5OjJOY4ceOw0eQcaTJTVEc+62x3ZNjwPHkXRTWu2QuSfbAifdY7weY6kDuSU22I+MslEqWSZ5+vZaqfqO5nd0Z6CdRUOqcqhuKCkIL1vNklLloa4hDiKKLMeqjEFmwZGiymfJ0JRuvtVjzhIQkeaK8WmI4vt8dlTvZZjIkdmlzvb1vH0wnTw1tmPB4czSy9+CP21Xmh4ebDpZTe1HYHbH6qq91/X+ApoGkefOFcJTv/vmAcJUHzZeE38xFa1yceqdcCqvAPkQZOxpVTKjdB/fJ3+zfVN8ZGlqamKkxxvAbyeey6T+dX600bqKs
+           properties : {}
+           style : {}
+           code_elements :
+            type_code : 26
+            p_codes :
+             -
+               code : |1+
+                
+                Imprimer_Participants()
+               type : 32
+         -
            name : OPT_ListeToutEffectif
            identifier : 0x286d20b40b6a3fb0
            internal_properties : HgAAAB4AAAAPXI8B8bRpoA0IaP1+ip/5eJ2VuyaI4dEk21wfjCP7L2szyJZ4cVJfCHsIXbQtBmyPp+hZFBVWaKleWPkVVXxLIOCXEpaMMOYZj2w6uuQN4Qf61sHjQLA7jtBLWQ9a47uxUSL0/qPkxEr4HS4D3ujmsQpqqGpvD648WYB/gGyY7wQXLLqKq5rwqhJQ4TjSsAHmXwrpoXzHe1Zaf7vzLe4jrNPw8jwFVx78cg7U3/S9tcCcYS1pVzxu/NtdcKzIzpOrB7aGfB5twEOeWSmBLCO2sHHo6nVlzomWJWtqV1XxLwj/SbaHlNSVxy50GeGAOq18GpSVeatWUz8cb/HnwBvg6fcg9QHuZi7/Iy44Mer+iox6shI9mMZH
@@ -267,6 +281,20 @@ window :
                code : |1+
                 
                 Imprimer_Effectif()
+               type : 32
+         -
+           name : OPT_Liste_simple_de_tout_l_effectif
+           identifier : 0x2960eb120446571a
+           internal_properties : HgAAAB4AAAC2+XIlEoE+kFvDtBSYBdLgMnSuqWBK/W0t08syQ/ZLclBe27B3zi/GfCXFT7Aoy0HIKXpVwa8ln/3d1Jm+pD3jhvv2TC8hYzYdUyQtJZ0aOnLZUDnKm9mmJDZjaSPJCEjqaBCNtB9EBbem53uSQHNEpdvefflqaqqmQNRmEHcpt0V+koXbkXwMtK3E7NWAKGXmPDU65wfwSzlvMgorQ87L2aaKU0LbJiFWqS6QOLMxw9bdUrBzn98fa+EULyXbRnr4H/AOudm0FLhgupAS40AeacsOn9VTULvMVRD7J1KZ7rq1JgPRaGmyoaCTNEl2LjNV1KWjHfM5V4a1rgNHSmQHDY+XvW5ITxAM9y5AnKCFNq9v8ygGycaTMr4xUfwOWZo=
+           properties : {}
+           style : {}
+           code_elements :
+            type_code : 26
+            p_codes :
+             -
+               code : |1+
+                
+                Imprimer_EffectifSimple()
                type : 32
         code_elements :
          type_code : 26
