@@ -29,7 +29,6 @@ class :
       	m_bArchivé		est un booléen				<mapping=Archivé>
       	<FIN>
       
-      	m_nNbSeances	est un entier
       	m_clEffectif	est un CL_Effectif
       
       	m_tabSeances	est un tableau de CL_Seance
@@ -163,13 +162,13 @@ class :
         type : 2031616
      template_refs : []
    -
-     name : nNbSeances
+     name : NbSeances
      identifier : 0x187a396b029a8c2f
      type_code : 103
      p_codes :
       -
         code : |1-
-         procédure publique nNbSeances() : entier
+         procédure publique NbSeances() : entier
          
          renvoyer TableauOccurrence(:m_tabSeances)
         type : 1966080
