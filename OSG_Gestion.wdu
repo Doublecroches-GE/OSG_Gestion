@@ -1,7 +1,7 @@
 OSG_Gestion.wdp
-TEST_GestionPlan.eu.emf
-TEST_GestionPlanFR.eu.emf
-TEST_GestionPlan.wdd
+OSG_Gestion.eu.emf
+OSG_GestionFR.eu.emf
+OSG_Gestion.wdd
 CL_Session.wdc
 CL_Gestion.wdc
 CL_Famille.wdc
@@ -98,6 +98,11 @@ ETAT_ParPupitre.wde
 FEN_Seances.wdw
 REQ_Musiciens_Repetition.WDR
 REQ_Seances_Session.WDR
+FEN_Absents.wdw
+CL_Absents.wdc
+REQ_Absents_Seance.WDR
+ETAT_Effectif_Simple.wde
+ETAT_ParticipantsSession.wde
 FauteuilVH_transparent.png
 FauteuilVH_vert.png
 FauteuilVH_vertPris.png
