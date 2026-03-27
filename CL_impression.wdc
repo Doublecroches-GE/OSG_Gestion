@@ -7,9 +7,10 @@ info :
  type : 4
  description : ""
  subtype : 0
+ options : 256
 class :
  identifier : 0x186399ef0547f93f
- internal_properties : HgAAAB4AAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ internal_properties : HwAAAB4AAAD+1kTo6KJy2WQU0Y4fbFD6aQ7NWfD4KKkN7Ml67nIqLXIRxJ1vjfJ1
  code_elements :
   type_code : 10
   p_codes :
@@ -145,14 +146,27 @@ class :
       
       m_tab_Personnes = gcl_SessionEnCours.m_clEffectif.GET_ListeMusiciens_Pupitre(vn_idPupitre)
      type : 458752
+  properties :
+   -
+     name : Nb_Musiciens
+     identifier : 0x19c6729f007d69a8
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procédure publique Nb_Musiciens():ENtier
+         
+         RENVOYER TableauOccurrence(:m_tab_Personnes)
+        type : 1966080
+     template_refs : []
   procedure_templates : []
   property_templates : []
  code_parameters :
-  internal_properties : HgAAAB4AAADXPUOq6bQdTI/fs1mC0I6nimWl2G84EsAbne5i32IM05uoRA==
+  internal_properties : HwAAAB4AAAB7MB8NZB5rGUbyk77+IjQnJ74vm430Ar3yq0zmP05sGBBw0ur17uG6ZWry
   original_name : Classe1
 resources :
  string_res :
   identifier : 0x186399e90544e181
-  internal_properties : HgAAAB4AAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  internal_properties : HwAAAB4AAAA809Qj/IAi+r8QXyrnW7sarQeYORCUjKBkmMeTFexSj5AuvTfTUpN0Eg==
 custom_note :
- internal_properties : HgAAAB4AAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
+ internal_properties : HwAAAB4AAADnl3uxgA6ylw4vtqUKEOJQD3VAAOKeNUmhPNojcRFoDpHEcUyYAw==
