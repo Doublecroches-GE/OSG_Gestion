@@ -1,1 +1,4 @@
-//MO058-059.TXT ANA00058 TO ANA00059
+//MO059-060.TXT ANA00059 TO ANA00060
+Personne		TAR	855	nouvelle taille enregistrement : 855
+Personne	Est_supprime	RUB+		Est_supprime est une nouvelle rubrique
+Personne	Nom_Prenom_Supprime	NNR	Nom_Prenom	ATTENTION : la clé Nom_Prenom a pour nouveau nom Nom_Prenom_Supprime

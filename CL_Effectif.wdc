@@ -7,9 +7,10 @@ info :
  type : 4
  description : ""
  subtype : 0
+ options : 256
 class :
  identifier : 0x1376110600d4f314
- internal_properties : HgAAAB4AAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ internal_properties : HwAAAB4AAAD+1kTo6KJy2WQU0Y4fbFD6aQ7NWfD4KKkN7Ml67nIqLXIRxJ1vjfJ1
  code_elements :
   type_code : 10
   p_codes :
@@ -389,6 +390,7 @@ class :
       
       vn_nbOcc = TableauOccurrence(:m_tab_PISP)
       Pour i = 1 a vn_nbOcc
+      	:m_tab_PISP[i].m_clSessionPupitre.m_clPupitre.Charger(:m_tab_PISP[i].m_IDPupitre)
       	SI :m_tab_PISP[i].m_clSessionPupitre.m_clPupitre.m_IDFamille <> 2 ALORS CONTINUE
       
       	VariableRAZ(vcl_pers)
@@ -396,15 +398,15 @@ class :
       	vcl_pers.m_bEst_HEM					= :m_tab_PISP[i].m_clPersInst.m_clPersonne.m_bHEM
       	vcl_pers.m_bEst_renfort				= :m_tab_PISP[i].m_Est_Renfort
       	vcl_pers.m_bEst_chefAttaque			= :m_tab_PISP[i].ChefAttaque
-      	vcl_pers.m_bDonneesTransmissibles	= :m_tab_PISP[i].m_clPersInst.m_clPersonne.m_bDonnees_Transmissibles
+      	vcl_pers.m_bDonneesTransmissibles	= :m_tab_PISP[i].m_Donnees_Transmissibles
       	vcl_pers.m_nOrdrePupitre			= :m_tab_PISP[i].m_clSessionPupitre.m_clPupitre.m_nOrdre
       	vcl_pers.m_nVoix					= :m_tab_PISP[i].m_Voix
-      	vcl_pers.m_sEmail					= vcl_pers.m_bDonneesTransmissibles? :m_tab_PISP[i].m_clPersInst.m_clPersonne.m_sEMail SINON ""
-      	vcl_pers.m_sNom						= :m_tab_PISP[i].m_clPersInst.m_clPersonne.m_sNom
-      	vcl_pers.m_sPrenom					= :m_tab_PISP[i].m_clPersInst.m_clPersonne.m_sPrenom
-      	vcl_pers.m_sPrenom_Nom				= :m_tab_PISP[i].m_clPersInst.m_clPersonne.Prenom_Nom
+      	vcl_pers.m_sEmail					= vcl_pers.m_bDonneesTransmissibles? :m_tab_PISP[i].m_Email SINON ""
+      	vcl_pers.m_sNom						= :m_tab_PISP[i].m_Nom
+      	vcl_pers.m_sPrenom					= :m_tab_PISP[i].m_Prenom
+      	vcl_pers.m_sPrenom_Nom				= :m_tab_PISP[i].Prenom_Nom
       	vcl_pers.m_sPupitre					= :m_tab_PISP[i].m_clSessionPupitre.m_clPupitre.m_sPupitre
-      	vcl_pers.m_sTel						= vcl_pers.m_bDonneesTransmissibles? :m_tab_PISP[i].m_clPersInst.m_clPersonne.m_sTelephone SINON ""
+      	vcl_pers.m_sTel						= vcl_pers.m_bDonneesTransmissibles? :m_tab_PISP[i].m_Telephone SINON ""
       	vcl_pers.m_sCommentaire				= :m_tab_PISP[i].m_Commentaire
       	vtab_pers.Ajoute(vcl_pers)
       FIN
@@ -438,22 +440,23 @@ class :
       
       vn_nbOcc = TableauOccurrence(:m_tab_PISP)
       Pour i = 1 a vn_nbOcc
+      	:m_tab_PISP[i].m_clSessionPupitre.m_clPupitre.Charger(:m_tab_PISP[i].m_IDPupitre)
       	SI :m_tab_PISP[i].m_clSessionPupitre.m_clPupitre.m_IDFamille <> 4 _ET_ :m_tab_PISP[i].m_clSessionPupitre.m_clPupitre.m_IDFamille <> 5 ALORS CONTINUE
       
       	VariableRAZ(vcl_pers)
       	vcl_pers.m_nIDPupitre				= :m_tab_PISP[i].IDPupitre
-      	vcl_pers.m_bEst_HEM					= :m_tab_PISP[i].m_clPersInst.m_clPersonne.m_bHEM
+      	vcl_pers.m_bEst_HEM					= :m_tab_PISP[i].m_HEM
       	vcl_pers.m_bEst_renfort				= :m_tab_PISP[i].m_Est_Renfort
       	vcl_pers.m_bEst_chefAttaque			= :m_tab_PISP[i].ChefAttaque
-      	vcl_pers.m_bDonneesTransmissibles	= :m_tab_PISP[i].m_clPersInst.m_clPersonne.m_bDonnees_Transmissibles
+      	vcl_pers.m_bDonneesTransmissibles	= :m_tab_PISP[i].m_Donnees_Transmissibles
       	vcl_pers.m_nOrdrePupitre			= :m_tab_PISP[i].m_clSessionPupitre.m_clPupitre.m_nOrdre
       	vcl_pers.m_nVoix					= :m_tab_PISP[i].m_Voix
-      	vcl_pers.m_sEmail					= vcl_pers.m_bDonneesTransmissibles? :m_tab_PISP[i].m_clPersInst.m_clPersonne.m_sEMail SINON ""
-      	vcl_pers.m_sNom						= :m_tab_PISP[i].m_clPersInst.m_clPersonne.m_sNom
-      	vcl_pers.m_sPrenom					= :m_tab_PISP[i].m_clPersInst.m_clPersonne.m_sPrenom
-      	vcl_pers.m_sPrenom_Nom				= :m_tab_PISP[i].m_clPersInst.m_clPersonne.Prenom_Nom
+      	vcl_pers.m_sEmail					= vcl_pers.m_bDonneesTransmissibles? :m_tab_PISP[i].m_EMail SINON ""
+      	vcl_pers.m_sNom						= :m_tab_PISP[i].m_Nom
+      	vcl_pers.m_sPrenom					= :m_tab_PISP[i].m_Prenom
+      	vcl_pers.m_sPrenom_Nom				= :m_tab_PISP[i].Prenom_Nom
       	vcl_pers.m_sPupitre					= :m_tab_PISP[i].m_clSessionPupitre.m_clPupitre.m_sPupitre
-      	vcl_pers.m_sTel						= vcl_pers.m_bDonneesTransmissibles? :m_tab_PISP[i].m_clPersInst.m_clPersonne.m_sTelephone SINON ""
+      	vcl_pers.m_sTel						= vcl_pers.m_bDonneesTransmissibles? :m_tab_PISP[i].m_Telephone SINON ""
       	vcl_pers.m_sCommentaire				= :m_tab_PISP[i].m_Commentaire
       	vtab_pers.Ajoute(vcl_pers)
       FIN
@@ -605,11 +608,11 @@ class :
   procedure_templates : []
   property_templates : []
  code_parameters :
-  internal_properties : HgAAAB4AAADXPUOq6bQdTI/fs1mC0I6nimWl2G84EsAbne5i32IM05uoRA==
+  internal_properties : HwAAAB4AAAB7MB8NZB5rGUbyk77+IjQnJ74vm430Ar3yq0zmP05sGBBw0ur17uG6ZWry
   original_name : Classe1
 resources :
  string_res :
   identifier : 0x137610fa00d1c4d0
-  internal_properties : HgAAAB4AAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  internal_properties : HwAAAB4AAAA809Qj/IAi+r8QXyrnW7sarQeYORCUjKBkmMeTFexSj5AuvTfTUpN0Eg==
 custom_note :
- internal_properties : HgAAAB4AAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
+ internal_properties : HwAAAB4AAADnl3uxgA6ylw4vtqUKEOJQD3VAAOKeNUmhPNojcRFoDpHEcUyYAw==

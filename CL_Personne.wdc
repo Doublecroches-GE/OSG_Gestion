@@ -7,21 +7,22 @@ info :
  type : 4
  description : ""
  subtype : 0
+ options : 256
 class :
  identifier : 0x12e90031014a0e04
- internal_properties : HgAAAB4AAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ internal_properties : HwAAAB4AAAD+1kTo6KJy2WQU0Y4fbFD6aQ7NWfD4KKkN7Ml67nIqLXIRxJ1vjfJ1
  code_elements :
   type_code : 10
   p_codes :
    -
-     code : |1+
-      CL_Personne est une Classe <mapping=Personne>
-      	herite CL_Gestion
-      	// Le code se trouvant entre <MAPPING> et <FIN> est généré automatiquement.
-      	// Il sera effacé et recréé entièrement à chaque génération depuis le menu contextuel
-      	// du fichier dans l'explorateur de projet ou dans l'analyse "..Regénérer la classe modèle"
-      	<MAPPING>
-      	m_ID						est un entier sur 8 octets	<mapping=ID, clé unique>
+     code : |1-
+      CL_Personne est une Classe <mapping=Personne><§rad:1§>
+      	herite CL_Gestion<§rad:1§>
+      	// Le code se trouvant entre <MAPPING> et <FIN> est généré automatiquement.<§rad:1§>
+      	// Il sera effacé et recréé entièrement à chaque génération depuis le menu contextuel<§rad:1§>
+      	// du fichier dans l'explorateur de projet ou dans l'analyse "..Regénérer la classe modèle"<§rad:1§>
+      	<MAPPING><§rad:1§>
+      	m_ID						est un entier sur 8 octets	<mapping=ID, clé unique><§rad:1§>
       	m_sNom						est une chaîne				<mapping=Nom>
       	m_sPrenom					est une chaîne				<mapping=Prenom>
       	m_sEMail						est une chaîne				<mapping=EMail>
@@ -31,22 +32,25 @@ class :
       	m_sAdr_Complement			est une chaîne				<mapping=Adr_Complement>
       	m_sNPA						est une chaîne				<mapping=NPA>
       	m_sLieu						est une chaîne				<mapping=Lieu>
+      	m_sPays						est une chaîne				<mapping=Pays>
       	m_bPro						est un booléen				<mapping=Pro>
       	m_bHEM						est un booléen				<mapping=HEM>
       	m_bEst_Active				est un booléen				<mapping=Est_Active>
+      	m_bEst_supprime				est un booléen				<mapping=Est_supprime>
       	m_sCommentaire				est une chaîne				<mapping=Commentaire>
       	m_bDonnees_Transmissibles	est un booléen				<mapping=Donnees_Transmissibles>
       	m_bImage_Reseaux				est un booléen				<mapping=Image_Reseaux>
       	m_bLPD_acceptee				est un booléen				<mapping=LPD_acceptee>
       	m_dDate_MAJ					est une date				<mapping=Date_MAJ>
-      	m_dDate_Modification			est une date				<mapping=Date_Modification>
-      	<FIN>
-      
-      	m_sRecherche			est une chaine
-      	mtab_instruments		est un tableau de CL_Instrument
-      	m_bMultipleInstruments	est un booléen
-      
-      FIN
+      	m_dDate_Modification		est une date				<mapping=Date_Modification>
+      	<FIN><§rad:1§>
+      <§rad:1§>
+      	m_sRecherche			est une chaine<§rad:1§>
+      	mtab_instruments		est un tableau de CL_Instrument<§rad:1§>
+      	m_bMultipleInstruments	est un booléen<§rad:1§>
+      <§rad:1§>
+      FIN<§rad:1§>
+      <§rad:1§>
      type : 131072
   procedures :
    -
@@ -54,121 +58,125 @@ class :
      procedure_id : 1362620572731444740
      type_code : 27
      code : |1-
-      PROCEDURE Constructeur()
-      m_sfichierBD = "PERSONNE"
-      
-      m_bEst_Active = Vrai
+      PROCEDURE Constructeur()<§rad:1§>
+      m_sfichierBD = "PERSONNE"<§rad:1§>
+      <§rad:1§>
+      m_bEst_Active = Vrai<§rad:1§>
      type : 589824
    -
      name : Constructeur
      procedure_id : 1362620572731444740
      type_code : 27
      code : |1-
-      procédure Constructeur(vn_id est un entier sur 8 octets)
-      
-      m_sfichierBD = "PERSONNE"
-      
-      SI HLitRecherchePremier(Personne,id,vn_id) ALORS
-      	FichierVersMémoire(Objet,Personne)
-      	:mtab_instruments = Liste_Instruments_Personne(vn_id)
-      FIN
+      procédure Constructeur(vn_id est un entier sur 8 octets)<§rad:1§>
+      <§rad:1§>
+      m_sfichierBD = "PERSONNE"<§rad:1§>
+      <§rad:1§>
+      SI HLitRecherchePremier(Personne,id,vn_id) ALORS<§rad:1§>
+      	FichierVersMémoire(Objet,Personne)<§rad:1§>
+      	:mtab_instruments = Liste_Instruments_Personne(vn_id)<§rad:1§>
+      FIN<§rad:1§>
      type : 589825
    -
      name : Destructeur
      procedure_id : 1362620572731510276
      type_code : 28
      code : |1-
-      PROCEDURE Destructeur()
+      PROCEDURE Destructeur()<§rad:1§>
      type : 655360
    -
      name : Ajouter_Instrument
      procedure_id : 1362620572731575812
      type_code : 12
      code : |1-
-      // Résumé : <indiquez ici ce que fait la procédure>
-      // Syntaxe :
-      //Ajouter_Instrument (<vn_id>)
-      //
-      // Paramètres :
-      // 	vn_id : <indiquez ici le rôle de vn_id>
-      // Valeur de retour :
-      // 	Aucune
-      //
-      // Exemple :
-      // <Indiquez ici un exemple d'utilisation>
-      //
-      procédure Ajouter_Instrument(vn_id)
-      
-      vcl_instrument est une CL_Instrument
-      
-      SI HLitRecherchePremier(Instrument,ID,vn_id) ALORS 
-      	FichierVersMémoire(vcl_instrument,Instrument)
-      	mtab_instruments.AjouteLigne(vcl_instrument)
-      FIN
+      // Résumé : <indiquez ici ce que fait la procédure><§rad:1§>
+      // Syntaxe :<§rad:1§>
+      //Ajouter_Instrument (<vn_id>)<§rad:1§>
+      //<§rad:1§>
+      // Paramètres :<§rad:1§>
+      // 	vn_id : <indiquez ici le rôle de vn_id><§rad:1§>
+      // Valeur de retour :<§rad:1§>
+      // 	Aucune<§rad:1§>
+      //<§rad:1§>
+      // Exemple :<§rad:1§>
+      // <Indiquez ici un exemple d'utilisation><§rad:1§>
+      //<§rad:1§>
+      procédure Ajouter_Instrument(vn_id)<§rad:1§>
+      <§rad:1§>
+      vcl_instrument est une CL_Instrument<§rad:1§>
+      <§rad:1§>
+      SI HLitRecherchePremier(Instrument,ID,vn_id) ALORS <§rad:1§>
+      	FichierVersMémoire(vcl_instrument,Instrument)<§rad:1§>
+      	mtab_instruments.AjouteLigne(vcl_instrument)<§rad:1§>
+      FIN<§rad:1§>
      type : 458752
    -
      name : Charger_Instruments_Joues
      procedure_id : 1364852126098211566
      type_code : 12
      code : |1-
-      // Résumé : <indiquez ici ce que fait la procédure>
-      // Syntaxe :
-      // Charger_Instruments_Joues ()
-      //
-      // Paramètres :
-      //	Aucun
-      // Valeur de retour :
-      // 	Aucune
-      //
-      // Exemple :
-      // <Indiquez ici un exemple d'utilisation>
-      //
-      procédure Charger_Instruments_Joues()
-      
-      :mtab_instruments = Liste_Instruments_Personne(m_ID)
+      // Résumé : <indiquez ici ce que fait la procédure><§rad:1§>
+      // Syntaxe :<§rad:1§>
+      // Charger_Instruments_Joues ()<§rad:1§>
+      //<§rad:1§>
+      // Paramètres :<§rad:1§>
+      //	Aucun<§rad:1§>
+      // Valeur de retour :<§rad:1§>
+      // 	Aucune<§rad:1§>
+      //<§rad:1§>
+      // Exemple :<§rad:1§>
+      // <Indiquez ici un exemple d'utilisation><§rad:1§>
+      //<§rad:1§>
+      procédure Charger_Instruments_Joues()<§rad:1§>
+      <§rad:1§>
+      :mtab_instruments = Liste_Instruments_Personne(m_ID)<§rad:1§>
      type : 458752
    -
      name : Sauver
      procedure_id : 1367829101088454903
      type_code : 12
      code : |1-
-      // Redéfinition de la méthode CL_Gestion.Sauver
-      PROCÉDURE PUBLIQUE Sauver() 
-      
-      vcl_persInstr	est une CL_Personne_Instrument
-      vb_creation		est un booléen
-      
-      vb_creation = m_ID = 0
-      Ancêtre.Sauver()
-      
-      Si vb_creation ALORS
-      	pour i = 1 A mtab_instruments..Occurrence
-      		vcl_persInstr.m_IDInstrument	= mtab_instruments[i].m_ID
-      		vcl_persInstr.m_IDPersonne		= m_Id
-      		vcl_persInstr.Sauver_Personne_Instrument(vrai)
-      	FIN
-      FIN
+      // Redéfinition de la méthode CL_Gestion.Sauver<§rad:1§>
+      PROCÉDURE PUBLIQUE Sauver() <§rad:1§>
+      <§rad:1§>
+      vcl_persInstr	est une CL_Personne_Instrument<§rad:1§>
+      vb_creation		est un booléen<§rad:1§>
+      <§rad:1§>
+      vb_creation = m_ID = 0<§rad:1§>
+      Ancêtre.Sauver()<§rad:1§>
+      <§rad:1§>
+      Si vb_creation ALORS<§rad:1§>
+      	pour i = 1 A mtab_instruments..Occurrence<§rad:1§>
+      		vcl_persInstr.m_IDInstrument	= mtab_instruments[i].m_ID<§rad:1§>
+      		vcl_persInstr.m_IDPersonne		= m_Id<§rad:1§>
+      		vcl_persInstr.Sauver_Personne_Instrument(vrai)<§rad:1§>
+      	FIN<§rad:1§>
+      FIN<§rad:1§>
      type : 458752
    -
      name : Supprimer
      procedure_id : 1367836527090343170
      type_code : 12
      code : |1+
-      // Résumé : <indiquez ici ce que fait la procédure>
-      // Syntaxe :
-      // Supprimer ()
-      //
-      // Paramètres :
-      //	Aucun
-      // Valeur de retour :
-      // 	Aucune
-      //
-      // Exemple :
-      // <Indiquez ici un exemple d'utilisation>
-      //
-      procédure Supprimer()
-      
+      // Résumé : <indiquez ici ce que fait la procédure><§rad:1§>
+      // Syntaxe :<§rad:1§>
+      // Supprimer ()<§rad:1§>
+      //<§rad:1§>
+      // Paramètres :<§rad:1§>
+      //	Aucun<§rad:1§>
+      // Valeur de retour :<§rad:1§>
+      // 	Aucune<§rad:1§>
+      //<§rad:1§>
+      // Exemple :<§rad:1§>
+      // <Indiquez ici un exemple d'utilisation><§rad:1§>
+      //<§rad:1§>
+      procédure Supprimer()<§rad:1§>
+      <§rad:1§>
       //On ne supprime pas toutes les dépendances, on marque juste l'enregistrement comme supprimé
+      :m_bEst_supprime = Vrai
+      :m_bEst_Active = Faux
+      :m_dDate_Modification = DateDuJour()
+      :Sauver()
      type : 458752
   properties :
    -
@@ -178,9 +186,9 @@ class :
      p_codes :
       -
         code : |1-
-         procédure publique Nom_Prenom() : chaîne
-         
-         renvoyer m_sNom + " " + m_sPrenom
+         procédure publique Nom_Prenom() : chaîne<§rad:1§>
+         <§rad:1§>
+         renvoyer m_sNom + " " + m_sPrenom<§rad:1§>
         type : 1966080
      template_refs : []
    -
@@ -190,13 +198,13 @@ class :
      p_codes :
       -
         code : |1-
-         procédure publique Prenom_Nom()
-         
-         RENVOYER m_sPrenom + " " + m_sNom
+         procédure publique Prenom_Nom()<§rad:1§>
+         <§rad:1§>
+         RENVOYER m_sPrenom + " " + m_sNom<§rad:1§>
         type : 1966080
       -
         code : |1-
-         
+         <§rad:1§>
         type : 2031616
      template_refs : []
    -
@@ -206,23 +214,23 @@ class :
      p_codes :
       -
         code : |1-
-         procédure publique Est_inactive()
-         
-         REnvoyer pas m_bEst_Active
+         procédure publique Est_inactive()<§rad:1§>
+         <§rad:1§>
+         REnvoyer pas m_bEst_Active<§rad:1§>
         type : 1966080
      template_refs : []
   procedure_templates : []
   property_templates : []
  code_parameters :
-  internal_properties : HgAAAB4AAADXPUOq6bQdTI/fs1mC0I6nimWl2G84EsAbne5i32IM05uoRA==
+  internal_properties : HwAAAB4AAAB7MB8NZB5rGUbyk77+IjQnJ74vm430Ar3yq0zmP05sGBBw0ur17uG6ZWry
   original_name : Classe1
 resources :
  string_res :
   identifier : 0x12bc749e00f05f22
-  internal_properties : HgAAAB4AAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  internal_properties : HwAAAB4AAAA809Qj/IAi+r8QXyrnW7sarQeYORCUjKBkmMeTFexSj5AuvTfTUpN0Eg==
   strings :
    -
      text : {}
      index : 0
 custom_note :
- internal_properties : HgAAAB4AAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
+ internal_properties : HwAAAB4AAADnl3uxgA6ylw4vtqUKEOJQD3VAAOKeNUmhPNojcRFoDpHEcUyYAw==

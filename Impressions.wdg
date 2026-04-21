@@ -7,9 +7,10 @@ info :
  type : 7
  description : ""
  subtype : 0
+ options : 256
 procedure_set :
  identifier : 0x186392fa04adce6a
- internal_properties : HgAAAB4AAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ internal_properties : HwAAAB4AAADjksEavC8JwuEiHc63C+ul0ggS/BOiC8PJfOp/6aEkSKX4qEWcBw==
  code_elements :
   type_code : 31
   p_codes : []
@@ -57,10 +58,26 @@ procedure_set :
       //
       procédure Imprimer_Cordes()
       
+      vcl_impression	est une CL_Impression
+      vn_pupitre		est un entier
+      
       gcl_Impression.Charger_Cordes()
       
-      iDestination(iVisualisateur)
-      iImprimeEtat(ETAT_ParPupitre, gcl_Impression)
+      pour i = 1 A TableauOccurrence(gcl_Impression.m_tab_Personnes)
+      	SI gcl_Impression.m_tab_Personnes[i].m_nIDPupitre <> vn_pupitre ALORS
+      		SI TableauOccurrence(vcl_impression.m_tab_Personnes) > 0 ALORS
+      			iDestination(iVisualisateur)
+      			iImprimeEtat(ETAT_ParPupitre, vcl_impression)
+      		FIN
+      		VariableRAZ(vcl_impression)
+      	FIN
+      	vcl_impression.m_tab_Personnes.Ajoute(gcl_Impression.m_tab_Personnes[i])
+      	vn_pupitre = gcl_Impression.m_tab_Personnes[i].m_nIDPupitre
+      FIN
+      SI TableauOccurrence(vcl_impression.m_tab_Personnes) > 0 ALORS
+      	iDestination(iVisualisateur)
+      	iImprimeEtat(ETAT_ParPupitre, vcl_impression)
+      FIN
      type : 458752
    -
      name : Imprimer_Vents
@@ -179,11 +196,11 @@ procedure_set :
   procedure_templates : []
   property_templates : []
  code_parameters :
-  internal_properties : HgAAAB4AAADXPUOq6bQdTI/fs1mC0I6nimWl2G84EsAbne5i32IM05uoRA==
+  internal_properties : HwAAAB4AAAB7MB8NZB5rGUbyk77+IjQnJ74vm430Ar3yq0zmP05sGBBw0ur17uG6ZWry
   original_name : COL_SansNom1
 resources :
  string_res :
   identifier : 0x12e951410393b213
-  internal_properties : HgAAAB4AAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  internal_properties : HwAAAB4AAAA809Qj/IAi+r8QXyrnW7sarQeYORCUjKBkmMeTFexSj5AuvTfTUpN0Eg==
 custom_note :
- internal_properties : HgAAAB4AAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
+ internal_properties : HwAAAB4AAADnl3uxgA6ylw4vtqUKEOJQD3VAAOKeNUmhPNojcRFoDpHEcUyYAw==
