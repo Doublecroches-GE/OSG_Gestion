@@ -1,6 +1,5 @@
 OSG_Gestion.wdp
 OSG_Gestion.eu.emf
-OSG_GestionFR.eu.emf
 OSG_Gestion.wdd
 CL_Session.wdc
 CL_Gestion.wdc
@@ -38,6 +37,7 @@ GABARITS\WD\190 GENSTEEL\GENSTEEL_TABLE_COLTITLE.PNG
 MOBILE.PNG
 MODIF.PNG
 SITE.ICO
+SUPPRIMER.PNG
 FEN_Travail.wdw
 FEN_Detail_Personne.wdw
 GABARITS\WD\250 PHOENIX\PHOENIX_EDT.PNG
@@ -80,7 +80,6 @@ FEN_Calendrier.wdw
 HEURE.PNG
 INSTRUMENT.PNG
 LIEU1.PNG
-SUPPRIMER.PNG
 CL_Seance.wdc
 FEN_Selection_Heures.wdw
 FEN_Popup_Saisie_Heure.wdw
