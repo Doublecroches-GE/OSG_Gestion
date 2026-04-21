@@ -21,8 +21,8 @@ project :
     generation_name : OSG_Gestion.exe
     version :
      major_version : 1
-     generation_version : 17
-     internal_generation_version : 18
+     generation_version : 19
+     internal_generation_version : 20
     icon_filename : .\OSG_Gestion.ico
     language : 1
     64bits : true
